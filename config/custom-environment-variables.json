@@ -1,0 +1,20 @@
+{
+  "App": {
+    "port": "PORT",
+    "env": "NODE_ENV",
+    "mongoUri": "MONGO_URL",
+    "auth": { "secretApp": "SECRET_APP", "expiresIn": "EXPIRES_IN" },
+    "monitoring": {
+      "sentry": { "dsn": "SENTRY_DSN" }
+     },
+    "jobs": {
+      "redisUri": "REDIS_URI"
+    },
+    "logger": {
+      "sematext": {
+        "token": "LOG_TOKEN",
+        "level": "LOG_LEVEL"
+      }
+    }
+  }
+}
